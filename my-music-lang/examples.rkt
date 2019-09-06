@@ -1,8 +1,9 @@
 #lang racket
 
 (require ts-kata-util)
+(require rsound) 
 
-(define-example-code Summer2019/Languages/my-music-lang/main all-star
+(define-example-code my-music-lang/main all-star
 
 (define d click-1)
 
@@ -185,5 +186,5 @@
     ;(beat-track 20)
     )))
 
-  )
+  main)
 

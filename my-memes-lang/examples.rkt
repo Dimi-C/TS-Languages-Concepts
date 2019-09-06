@@ -7,7 +7,7 @@
 
 ;Easy 1: Display the blank Drake.png template (inside the assets folder)
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 001-easy
+(define-example-code my-memes-lang/main 001-easy
 (define image (bitmap "./assets/meme/Drake.png"))
 
 image)
@@ -15,37 +15,37 @@ image)
 
 ;Easy 2: Display the Confused-Anime.png template (inside the assets folder)
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 002-easy
+(define-example-code my-memes-lang/main 002-easy
 (define image2 (bitmap "./assets/meme/Confused-Anime.png"))
 
 image2)
 
 ;Easy 3: Display the Pooh.png template (inside the assets folder)
-(define-example-code Summer2019/Languages/my-memes-lang/main 003-easy
+(define-example-code my-memes-lang/main 003-easy
 (define image3 (bitmap "./assets/meme/Pooh.png"))
 
   image3)
   
 ;Easy 4: Display the Button.png template (inside the assets folder)
-(define-example-code Summer2019/Languages/my-memes-lang/main 004-easy
+(define-example-code my-memes-lang/main 004-easy
 (define image4 (bitmap "./assets/meme/Button.png"))
 
   image4)
 
 ;Easy 5: Display the Distracted-Boyfriend.png template (inside the assets folder)
-(define-example-code Summer2019/Languages/my-memes-lang/main 005-easy
+(define-example-code my-memes-lang/main 005-easy
 (define image5 (bitmap "./assets/meme/Distracted-Boyfriend.png"))
 
  image5)
 
 ;Easy 6: Display the Types-of-Headaches.png template (inside the assets folder)
-(define-example-code Summer2019/Languages/my-memes-lang/main 006-easy
+(define-example-code my-memes-lang/main 006-easy
 (define image6 (bitmap "./assets/meme/Types-of-Headaches.png"))
 
   image6)
 
 ;Easy 7: Display the Surprised-Pikachu.png template (inside the assets folder)
-(define-example-code Summer2019/Languages/my-memes-lang/main 007easy
+(define-example-code my-memes-lang/main 007easy
 (define image7 (bitmap "./assets/meme/Surprised-Pikachu.png"))
 
 image7)
@@ -57,7 +57,7 @@ image7)
 
 ;Medium 1: Add text to the Drake.png template to make it a meme!
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 001-medium
+(define-example-code my-memes-lang/main 001-medium
 (define image (bitmap "./assets/meme/Drake.png"))
 (define text1 (text "Working as a camp counselor\nfor money" 36 "black"))
 (define text2 (text "Working as a camp counselor \nfor coding knowledge" 36 "black"))
@@ -73,7 +73,7 @@ image7)
 
 ;Medium 2: Add text to the Confused-Anime template to make it a meme!
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 002-medium
+(define-example-code my-memes-lang/main 002-medium
 (define image2 (bitmap "./assets/meme/Confused-Anime.png"))
 
 (overlay/offset
@@ -88,7 +88,7 @@ image7)
    image2))))
    
 ;Medium 3: Add text to the Lisa-prez.png template to make it a meme!
-(define-example-code Summer2019/Languages/my-memes-lang/main 003-medium
+(define-example-code my-memes-lang/main 003-medium
   (define image (bitmap "./assets/lisa-prez.png"))
 
   (define words (text "The Shrek 2 soundtrack is
@@ -102,7 +102,7 @@ lofi beats to study/relax to" 36 'black))
 
 ;Medium 4: Make a Pooh meme. Add text in the white space next to each Pooh image in the meme.
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 004-medium
+(define-example-code my-memes-lang/main 004-medium
 
   ;To get the background image of the Pooh meme.
   (define image (bitmap "./assets/meme/Pooh.png"))
@@ -126,7 +126,7 @@ and ruining a group project" 36 'black))
 
 ;Medium 5: Make a button meme. Put text over the button, as well as text over the moving hand.
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 005-medium
+(define-example-code my-memes-lang/main 005-medium
   
   ;To get the background button picture.
   (define image (bitmap "./assets/meme/Button.png"))
@@ -151,7 +151,7 @@ and ruining a group project" 36 'black))
    image))
 
 ;Medium 6: Make a meme about your team leaders using Monkey-Puppet.png
-(define-example-code Summer2019/Languages/my-memes-lang/main 006-medium
+(define-example-code my-memes-lang/main 006-medium
   (define image (bitmap "./assets/Monkey-Puppet.png"))
 
   (define camper (text "Camper: *to another camper* Hey you can't
@@ -173,7 +173,7 @@ copy from the internet that's cheating" 20 'black))
    
 ;Medium 7: Make a distracted boyfriend meme. Put text over the girlfriend, the boyfriend, and the new girl.
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 007-medium
+(define-example-code my-memes-lang/main 007-medium
   
   ;To get the Distracted Boyfriend meme image.
   (define image (bitmap "./assets/meme/Distracted-Boyfriend.png"))
@@ -206,7 +206,7 @@ copy from the internet that's cheating" 20 'black))
 
 ;Medium 8: Make a Headache meme. Add text below the image of the full head headache.
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 008-medium
+(define-example-code my-memes-lang/main 008-medium
 
   ;Creating the function that will pull the background image for us.
   (define (image-from-path path)
@@ -223,7 +223,7 @@ copy from the internet that's cheating" 20 'black))
   
 ;Medium 9: Make a Pikachu meme. Add text to the white space above the meme image.
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 009-medium
+(define-example-code my-memes-lang/main 009-medium
   
   ;To get the background pikachu image.
   (define image (bitmap "./assets/meme/Surprised-Pikachu.png"))
@@ -247,7 +247,7 @@ Student:" 36 'black))
 ;Hard 1: Add an image of interns, the racket-logo, and text, to a blank meme
 ;template.
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 001-hard
+(define-example-code my-memes-lang/main 001-hard
 (define image2 (bitmap "./assets/meme/Confused-Anime.png"))
 
 (define racket-logo
@@ -270,7 +270,7 @@ Student:" 36 'black))
 
 ;Hard 2: Add an image of interns and text to a blank meme template.
 
-(define-example-code Summer2019/Languages/my-memes-lang/main 002-hard
+(define-example-code my-memes-lang/main 002-hard
 (define image2 (bitmap "Me-Explaining.png"))
 
 (define text1
@@ -292,7 +292,7 @@ Student:" 36 'black))
 
 ;There's an error in this one (top not defined).  Commenting out to fix the build ~Stephen Foster
 #;
-(define-example-code Summer2019/Languages/my-memes-lang/main 003-hard
+(define-example-code my-memes-lang/main 003-hard
 (define image2 (bitmap "./assets/Drake.png"))
 
 (define racket-logo
@@ -326,7 +326,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 ;GIF 1: Create the function that will iterate through the file paths in order to make
 ;the world look as if it is spinning.
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 001-gifs-e
+(define-example-code my-GIF-lang/main 001-gifs-e
 
   (define (make-file-path number)
   ((compose (curryr string-append ".png") ;concatenates the string to be the file path,
@@ -335,7 +335,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 2: Create a gudetama that rotates on itself atop a yellow background
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 002-gifs-e
+(define-example-code my-GIF-lang/main 002-gifs-e
 
 (define gudetama-image (rotate 45 (bitmap "gudetama.png")))
 (define my-rectangle (rectangle 400 400 "solid" "yellow"))
@@ -349,7 +349,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 3: Create the function that places "Hello" over the World GIF.
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 003-gifs-m
+(define-example-code my-GIF-lang/main 003-gifs-m
 
   (define (make-file-path number)
     ((compose (curryr string-append ".png")
@@ -364,7 +364,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 4: Create a GIF that has 9 gudetamas rotating atop a yellow background
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 004-gifs-m
+(define-example-code my-GIF-lang/main 004-gifs-m
 
 (define my-rectangle (rectangle 300 300 "solid" "yellow"))
 
@@ -398,7 +398,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 5: Write the code that puts it all together (iterating through the images while keeping the text).
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 005-gifs-h
+(define-example-code my-GIF-lang/main 005-gifs-h
 
   (define (make-file-path number)
   ((compose (curryr string-append ".png")
@@ -414,7 +414,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
   (to-draw make-images))) ;every tick of big-bang draws the next image
 
 ;GIF 6: Make a nyan cat gif
-(define-example-code Summer2019/Languages/my-GIF-lang/main 006-gifs-e
+(define-example-code my-GIF-lang/main 006-gifs-e
 
   (define (make-file-path number)
     ((compose (curryr string-append ".png")
@@ -424,7 +424,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 
 ;GIF 7: Make a nyan cat gif with text below
-(define-example-code Summer2019/Languages/my-GIF-lang/main 007-gifs-e
+(define-example-code my-GIF-lang/main 007-gifs-e
 
   (define (make-file-path number)
     ((compose (curryr string-append ".png")
@@ -444,7 +444,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 ;GIF 8: Create the function that will iterate through various images in the assets folder
 ;to create a GIF of a tesseract.
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 008-gifs-e
+(define-example-code my-GIF-lang/main 008-gifs-e
 
   (define (make-file-path number)
   ((compose (curryr string-append ".png") ;concatenates the string to be the file path,
@@ -453,7 +453,7 @@ dlkfdlfkfjsndkjnskj" 30 "black")
 
 ;GIF 9: Create the function that places some text over the Tesseract GIF.
 
-(define-example-code Summer2019/Languages/my-GIF-lang/main 009-gifs-m
+(define-example-code my-GIF-lang/main 009-gifs-m
 
   (define (make-file-path number)
     ((compose (curryr string-append ".png")

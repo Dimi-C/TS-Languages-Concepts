@@ -5,7 +5,8 @@
 
 (define deps '(
   "https://github.com/thoughtstem/TS-Kata-Collections.git?path=ts-kata-util"
-  "https://github.com/thoughtstem/TS-Languages.git?path=data-sci"
+  "https://github.com/thoughtstem/TS-Languages.git?path=fundamentals"
+  "https://github.com/thoughtstem/TS-Languages-Concepts.git?path=my-GIF-lang"
   ;If this language depends on another language, add that dep here
   ))
 
